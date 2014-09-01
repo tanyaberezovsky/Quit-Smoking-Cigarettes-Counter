@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230FE55019A31C5F00F64219 /* QuitSmokingUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 230FE54F19A31C5F00F64219 /* QuitSmokingUserDefaults.m */; };
+		230FE55319A7292900F64219 /* UserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230FE55219A7292900F64219 /* UserDefaultsViewController.m */; };
 		23690013187C7EBE00484912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23690012187C7EBE00484912 /* Foundation.framework */; };
 		23690015187C7EBE00484912 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23690014187C7EBE00484912 /* CoreGraphics.framework */; };
 		23690017187C7EBE00484912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23690016187C7EBE00484912 /* UIKit.framework */; };
@@ -21,6 +23,8 @@
 		23690034187C7EBE00484912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23690016187C7EBE00484912 /* UIKit.framework */; };
 		2369003C187C7EBE00484912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2369003A187C7EBE00484912 /* InfoPlist.strings */; };
 		2369003E187C7EBE00484912 /* Quit_Smoking_Cigarettes_CounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2369003D187C7EBE00484912 /* Quit_Smoking_Cigarettes_CounterTests.m */; };
+		2393A70319A7376600AF79A6 /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393A70219A7376600AF79A6 /* UserDefaults.m */; };
+		2393A70619A737B100AF79A6 /* UserDefaultsDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393A70519A737B100AF79A6 /* UserDefaultsDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230FE54E19A31C5F00F64219 /* QuitSmokingUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuitSmokingUserDefaults.h; sourceTree = "<group>"; };
+		230FE54F19A31C5F00F64219 /* QuitSmokingUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuitSmokingUserDefaults.m; sourceTree = "<group>"; };
+		230FE55119A7292900F64219 /* UserDefaultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsViewController.h; sourceTree = "<group>"; };
+		230FE55219A7292900F64219 /* UserDefaultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsViewController.m; sourceTree = "<group>"; };
 		2369000F187C7EBE00484912 /* Quit Smoking Cigarettes Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quit Smoking Cigarettes Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23690012187C7EBE00484912 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		23690014187C7EBE00484912 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,10 @@
 		23690039187C7EBE00484912 /* Quit Smoking Cigarettes CounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quit Smoking Cigarettes CounterTests-Info.plist"; sourceTree = "<group>"; };
 		2369003B187C7EBE00484912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2369003D187C7EBE00484912 /* Quit_Smoking_Cigarettes_CounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quit_Smoking_Cigarettes_CounterTests.m; sourceTree = "<group>"; };
+		2393A70119A7376600AF79A6 /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		2393A70219A7376600AF79A6 /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		2393A70419A737B100AF79A6 /* UserDefaultsDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsDataController.h; sourceTree = "<group>"; };
+		2393A70519A737B100AF79A6 /* UserDefaultsDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		232CE1D519B2F28E00AD0DC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2393A70419A737B100AF79A6 /* UserDefaultsDataController.h */,
+				2393A70519A737B100AF79A6 /* UserDefaultsDataController.m */,
+				2393A70119A7376600AF79A6 /* UserDefaults.h */,
+				2393A70219A7376600AF79A6 /* UserDefaults.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		23690006187C7EBE00484912 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +135,8 @@
 		23690018187C7EBE00484912 /* Quit Smoking Cigarettes Counter */ = {
 			isa = PBXGroup;
 			children = (
+				232CE1D519B2F28E00AD0DC3 /* Model */,
+				2371765219A9A78E00E57715 /* UserDefaults */,
 				23690021187C7EBE00484912 /* QuitSmokingAppDelegate.h */,
 				23690022187C7EBE00484912 /* QuitSmokingAppDelegate.m */,
 				23690024187C7EBE00484912 /* Main.storyboard */,
@@ -119,6 +144,8 @@
 				23690028187C7EBE00484912 /* QuitSmokingViewController.m */,
 				2369002A187C7EBE00484912 /* Images.xcassets */,
 				23690019187C7EBE00484912 /* Supporting Files */,
+				230FE54E19A31C5F00F64219 /* QuitSmokingUserDefaults.h */,
+				230FE54F19A31C5F00F64219 /* QuitSmokingUserDefaults.m */,
 			);
 			path = "Quit Smoking Cigarettes Counter";
 			sourceTree = "<group>";
@@ -150,6 +177,15 @@
 				2369003A187C7EBE00484912 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2371765219A9A78E00E57715 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				230FE55119A7292900F64219 /* UserDefaultsViewController.h */,
+				230FE55219A7292900F64219 /* UserDefaultsViewController.m */,
+			);
+			name = UserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +288,10 @@
 			files = (
 				23690029187C7EBE00484912 /* QuitSmokingViewController.m in Sources */,
 				23690023187C7EBE00484912 /* QuitSmokingAppDelegate.m in Sources */,
+				230FE55019A31C5F00F64219 /* QuitSmokingUserDefaults.m in Sources */,
+				230FE55319A7292900F64219 /* UserDefaultsViewController.m in Sources */,
+				2393A70319A7376600AF79A6 /* UserDefaults.m in Sources */,
+				2393A70619A737B100AF79A6 /* UserDefaultsDataController.m in Sources */,
 				2369001F187C7EBE00484912 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
